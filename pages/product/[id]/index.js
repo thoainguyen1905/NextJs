@@ -5,15 +5,18 @@ function index() {
   return (
     <div>
       <Head>
-        <title>Thoại đz</title>
-        <meta property="og:title" content="thoại" />
+        <title>My page title</title>
+        <meta property="og:title" content="My page title" key="title" />
+        <meta name="description" content={"hello"} />
         <meta
-          property="og:image"
-          content={
-            "https://cdnimg.vietnamplus.vn/uploaded/xtsqr/2022_03_18/iphone_13_1.jpg"
-          }
+          itemprop="image"
+          content="https://cheatcode-assets.s3.amazonaws.com/default-social-graphic.png"
         />
       </Head>
+      <Head>
+        <meta property="og:title" content="My new title" key="title" />
+      </Head>
+      <p>Hello world!</p>
     </div>
   );
 }
