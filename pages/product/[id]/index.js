@@ -8,14 +8,12 @@ function index() {
         <title>My page title</title>
         <meta property="og:title" content="My page title" key="title" />
         <meta name="description" content={"hello"} />
-        <meta
+        {/* <meta
           itemprop="image"
           content="https://cheatcode-assets.s3.amazonaws.com/default-social-graphic.png"
-        />
+        /> */}
       </Head>
-      <Head>
-        <meta property="og:title" content="thoại nguyễn" key="title" />
-      </Head>
+
       <p>Hello world!</p>
     </div>
   );
