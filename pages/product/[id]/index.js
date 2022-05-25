@@ -14,7 +14,7 @@ function index() {
         />
       </Head>
       <Head>
-        <meta property="og:title" content="My new title" key="title" />
+        <meta property="og:title" content="thoại nguyễn" key="title" />
       </Head>
       <p>Hello world!</p>
     </div>
